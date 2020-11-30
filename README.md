@@ -23,8 +23,6 @@ Looking at the overall reports, the samples look like to have a good overall qua
 
 For the alignment steps, we're going to use **STAR Alignment** (https://github.com/alexdobin/STAR)
 
-###### 1) Create the Reference Genome Indexes
-
 First of all, create a new folder to store the genome indexes and also create a shortcut for it:
 
 ```
