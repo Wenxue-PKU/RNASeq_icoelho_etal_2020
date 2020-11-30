@@ -1,6 +1,11 @@
 # Repository for the RNASeq Analysis of the Paper "Trem-2 promotes emergence of restorative macrophages and endothelial cells during recovery from hepatic tissue damage" (Coelho et al., 2020)
 
-This repository contains the raw data (counts files) and scripts for the analysis of the RNASeq for the referenced paper.
+This repository contains the raw data (counts files) and scripts for the analysis of the RNASeq for the referenced paper. In addition to this README file, this repository contains:
+- Gene Counts files, from both sequencing experiments;
+- A .txt file containing the information of the R session used for this analysis;
+- A folder with the scripts used for this analysis. There is also a subfolder within this folder containing specifically the scripts used for NicheNet analysis.
+
+
 
 The first thing performed after getting the fastq files from the genomic facility, we performed Quality Control.
 
@@ -84,4 +89,4 @@ rm -rf ../aligned/$f*.bam; done
 
 This cycle will perform the alignment and perform the corresponding report for the file of the alignment.
 
-After assessing the overall quality of the alignment using Qualimap & log files produced by STAR, we concluded that we could proceed with the DESeq2 Analysis.
+After assessing the overall quality of the alignment using Qualimap & log files produced by STAR, we concluded that we could proceed with the DESeq2 Analysis. 
